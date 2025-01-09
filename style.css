@@ -8,27 +8,28 @@
 // <weight>: Use a value from 100 to 900 */
 
 .work-sans-uniquifier {
-  font-family: "Work Sans", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
 }
 /* header Getting error */
 .header{
     background-image: url(images/developer.png),url(images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: center left , bottom right;
-    background-size: contain;
-    height: 95vh;
-    margin-left: 23px;
+    background-position: top left, bottom right;
+    /* background-position: center left , bottom right; */
+    /* background-size: contain;
+    /* height: 95vh; */
+    /* padding-right: 0px;
+    margin-left: 23px; */ 
     /* margin-top: ; */
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 50px 100px;
-}
 
+/* Shered code */
+.secondary-bg{
+    background-color: #fff8f3;
+}
 .color-a{
     color: #FD6E0A;
 }
@@ -42,25 +43,43 @@ nav{
     text-decoration: none;
     border: 0;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 20px;
+    color: #757575;
+}
+
+/* NAV bar  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+}
+
 .nav-title{
     font-weight: 800;
     font-size: 40px;
 }
 nav ul{
     display: flex;
-    
     align-items: center;
-    margin: 0 20px;
+    /* margin: 0 20px; */
 }
 nav ul li{
     list-style: none;
+    margin-right: 50px;
 }
 nav li a{
     text-decoration: none;
     color: black;
     font-size: 20px;
-    font-weight: 300;
-    margin: 0 10px;
+    /* font-weight: 300;
+    margin: 0 10px; */
 }
 
 /* Banner Section */
@@ -74,8 +93,9 @@ nav li a{
 }
 .banner-content{
     max-width: 580px;
+    /* margin-left: -100px;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 5px; */
 }
 .banner-greetings{
     font-size: 45px;
@@ -83,12 +103,14 @@ nav li a{
     /* margin: 50px 200px; */
 }
 .banner-title{
-    font-size: 60px;
+    font-weight: bold;
+    font-size: 85px;
+    /* font-size: 60px;
     font-weight: 800;
-    margin: 20px 0;
+    margin: 20px 0; */
 }
 .banner-profile-pic{
     max-width: 584px;
-    height: 582px;
+    /* height: 621px; */
     
 }
