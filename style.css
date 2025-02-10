@@ -43,12 +43,23 @@
     text-decoration: none;
     border: 0;
 }
+.btn-primary:hover {
+    box-shadow: 0 0 10px #FD6E0A, 0 0 20px #FD6E0A, 0 0 30px #FD6E0A;
+  }
+
+  .btn{
+    margin-right: 20px;
+}
+
 .section-title{
     font-size: 35px;
     font-weight: bold;
     color: #181818;
+    margin-bottom: 20px;
 }
 .section-description{
+    margin-top: 20px;
+    /* margin-bottom: ; */
     font-size: 20px;
     color: #757575;
 }
@@ -109,8 +120,123 @@ nav li a{
     font-weight: 800;
     margin: 20px 0; */
 }
+.banner-description{
+    font-size: 20px;
+    color: #757575;
+    margin-top: 20px;
+}
 .banner-profile-pic{
     max-width: 584px;
     /* height: 621px; */
     
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* ----------About---------- */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;}
+.about-section {
+    /* /* background-color: #fff; */
+    border-radius: 10px;    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px;          
+    margin: 20px auto;      
+    max-width: 800px;       
+    text-align: center;     
+}
+    
+
+.item-title{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.item-description{
+    font-weight: 600;
+}
+
+/* skill section */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+ .skill{
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+} 
+.skill:hover {
+    /* border: 2px solid #FD6E0A;
+    box-shadow: 0px 6px 50px 0px rgba(253, 110, 10, 0.3); */
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
+  }
+  .skill-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+  }
+/* Hover Effect */
+ /*  */
+
+/* Resume section*/
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
+}
+ /*------ Footer----------*/
+ footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"],  footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
